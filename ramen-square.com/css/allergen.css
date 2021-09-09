@@ -1,0 +1,479 @@
+@charset "UTF-8";
+
+/*
+20190830 19:27更新
+*/
+/* # =================================================================
+   # 共通
+   # ================================================================= */
+body {
+  background: #000;
+  margin: o !important;
+  color: #333;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-gray {
+  background: #2e2e2e;
+  color: #ffffff;
+}
+
+a {}
+
+/* # =================================================================
+   # スマホ
+   # ================================================================= */
+@media screen and (max-width:767.98px) {
+
+  /* 変更点。0s.02引く。 */
+  /* ここにSP向けのCSS指定 */
+  .height95 {
+    height: 60px;
+  }
+
+  /*base.cssへ移動*/
+  .toggle-c {
+    color: #fff;
+  }
+
+  /*base.cssへ移動*/
+  .navbar-nav li {
+    color: #ffffff;
+  }
+
+  /*ページ内リンクの高さ調整*/
+  .anchor {
+    display: block;
+    padding-top: 60px;
+    margin-top: -60px;
+  }
+
+  .sp-bg-gray {
+    background: #2e2e2e;
+    color: #ffffff;
+  }
+
+  .bg-gray p {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  hr {
+    background: #777777;
+    margin: 40px 0 0 5px;
+  }
+
+  .allergen-h1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .left-list {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .right-list {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .right-list {
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .s-button {
+    float: left;
+    width: 24%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 20px;
+  }
+
+  .s-button a {
+    display: block;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin: 60px auto 0 auto;
+  }
+
+  .wt92p {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .logo-ebisu {
+    width: 30%;
+    max-width: 180px;
+    margin-top: 20px;
+  }
+
+  .logo-t {
+    margin-top: 30px;
+  }
+
+  .logo-gousei{
+    width: 30%;
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+  .logo-ebisuke{
+	  width: 30%;
+	  max-width:200px;
+	  margin-bottom:10px;
+  }
+	.logo-seattle{
+		width:30%;
+		max-width: 180px;
+		margin-bottom: 10px;
+	}
+	.logo-hinobuta{
+		width: 30%;
+		max-width: 180px;
+		margin-bottom: 10px;
+	}
+	.logo-gokujoe{
+		width: 30%;
+		max-width: 180px;
+		margin-bottom: 10px;
+	}
+	.logo-goku{
+		width: 30%;
+		max-width: 200px;
+		margin-bottom: 10px;
+	}
+  .al-table {}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  s table th, table td {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: #eee
+  }
+
+  .allergen, .pname {
+    background: #cc2f1b;
+    color: #fff;
+  }
+
+  .allergen {
+    width: 10%;
+    font-size: 12px;
+  }
+
+  .pname {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .product {
+    background: #eee;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .allergen, .mark {
+    width: 10%;
+  }
+
+  .mark {
+    background: #fff;
+  }
+
+  /*ボーダー*/
+  .pname {
+    border: 2px solid #000;
+  }
+
+  .product {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+  }
+
+  .allergen {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+  }
+
+  .allergen:last-child {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+  }
+
+  .mark {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+  }
+
+  .mark:last-child {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+  }
+
+  /* SP終わり */
+  /*スマホENDスマホENDスマホENDスマホENDスマホENDスマホENDスマホENDスマホEND*/
+}
+
+/*←消さないで*/
+/*スマホENDスマホENDスマホENDスマホENDスマホENDスマホENDスマホENDスマホEND*/
+/* # =================================================================
+   # PC
+   # ================================================================= */
+@media screen and (min-width:768px) {
+
+  /* ここにPC向けのCSS指定 */
+  .breadcrumb a {
+    display: inline;
+  }
+
+  /*看板メニュー&プロフィール*/
+  /*position調整*/
+  .height95 {
+    height: 115px;
+  }
+
+  .b-hour {
+    color: #ffffff;
+  }
+
+  .bg-gray p {
+    padding: 20px 40px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /*ページ内リンクの高さ調整*/
+  .anchor {
+    display: block;
+    padding-top: 110px;
+    margin-top: -110px;
+  }
+
+  hr {
+    background: #777777;
+    margin: 30px 0;
+  }
+
+  .allergen-h1 {
+    width: 450px;
+    margin: 15px auto;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .logo-ebisu {
+    width: 30%;
+    max-width: 180px;
+    margin-top: 20px;
+  }
+
+  .logo-gousei {
+    width: 30%;
+    max-width: 130px;
+    margin-bottom: 10px;
+  }
+
+  .logo-ebisuke{
+	  width: 30%;
+	  max-width:200px;
+	  margin-bottom:10px;
+
+  }
+	.logo-seattle{
+		width:30%;
+		max-width: 180px;
+		margin-bottom: 10px;
+	}
+	.logo-hinobuta{
+		width: 30%;
+		max-width: 180px;
+		margin-bottom: 10px;
+	}
+	.logo-gokujoe{
+		width: 30%;
+		max-width: 180px;
+		margin-bottom: 10px;
+	}
+	.logo-goku{
+		width: 30%;
+		max-width: 180px;
+		margin-bottom: 10px;
+	}
+  .al-table {
+    margin-top: 5px;
+    overflow: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  table th, table td {
+    text-align: center;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: #eee
+  }
+
+  allergen {
+    width: 10%;
+  }
+
+  .product {
+    background: #eee;
+    font-size: 14px;
+    text-align: left;
+    max-width: 174px;
+  }
+
+  .table-a {
+    width: 20%;
+    float: left;
+  }
+
+  .table-b {
+    width: 80%;
+  }
+
+  .pc_none {
+    display: none;
+  }
+
+  .allergen, .mark {
+    width: 10%;
+    max-width: 80px;
+  }
+
+  .allergen, .pname {
+    background: #cc2f1b;
+    color: #fff;
+  }
+
+  .pname {
+    max-width: 174px;
+  }
+
+  .bg-color-1 {
+    background: #fffef2;
+  }
+
+  .mark {
+    background-color: #fff;
+  }
+
+  .bg-color-1 .mark {
+    background: #fff2d9;
+  }
+
+  /*各店舗へとぶボタン*/
+  .button-area {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .s-button {
+    width: 13.2%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 30px;
+  }
+
+  .s-button a {
+    display: block;
+  }
+
+  .s-button img:hover {
+    opacity: 0.8;
+  }
+
+  /*ボーダー*/
+  .pname {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+    border-left: 3px solid #000
+  }
+
+  .allergen {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+  }
+
+  .product {
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    border-left: 3px solid #000;
+  }
+
+  .mark {
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+  }
+
+  .mark:last-child {
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+  }
+
+  /*
+  商品名が長い場合はこれ
+*/
+  .long-th {
+    font-size: 14px;
+  }
+
+  /*PC END*/
+  /*PC END*/
+  /*PC END*/
+  /*PC END*/
+  /*PC END*/
+  /*PC END*/
+}
+
+/*←消さないで*/
+/*PC END*/
+/*PC END*/
+/*PC END*/
+/*PC END*/
+/*PC END*/
+/*PC END*/
+@media screen and (min-width:768px) and (max-width:992px) {}

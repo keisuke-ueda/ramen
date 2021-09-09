@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+/*
+20190828 10:27更新
+*/
+/* # =================================================================
+   # 共通
+   # ================================================================= */
+/* # =================================================================
+   # スマホ
+   # ================================================================= */
+@media screen and (max-width:767.98px) {
+
+  /* 変更点。0.02引く。 */
+  /* ここにSP向けのCSS指定 */
+  .height95 {
+    height: 60px;
+  }
+
+  /*看板メニュー&プロフィール*/
+  .s-tel {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .profile-area {
+    margin-bottom: 30px;
+  }
+
+  .shop-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .k-price {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .red-box {
+    background: #b62030;
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .n-prof {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .np-box {
+    background: #2e2e2e;
+    border: 1px solid #cccccc;
+    margin-top: 30px;
+  }
+
+  .np-p {
+    margin-left: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40%;
+  }
+
+  .np-pp {
+    font-size: 14px;
+    margin-left: 11px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 17px;
+    line-height: 1.5;
+  }
+
+  hr {
+    background: #777777;
+    margin: 5px 0;
+  }
+
+  .shop-h1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  /*RECOMMEND*/
+  .osusume-area {
+    width: 96%;
+    margin: 0 auto 30px auto;
+  }
+
+  .osusume-box {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .r-name {
+    padding: 5px 0;
+    font-size: 12px;
+  }
+
+  .r-price {
+    float: right;
+    margin-right: 5px;
+  }
+
+  /*Menu*/
+  .allergen-link {
+    margin: 30px 0;
+  }
+
+  .allergen-link a {
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .allergen-link a:hover {
+    color: ##F1D790;
+    border-bottom: 1px solid #F1D790;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin: 60px auto 0 auto;
+  }
+
+  .wt92p {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /*スマホEND*/
+}
+
+/* # =================================================================
+   # PC
+   # ================================================================= */
+@media screen and (min-width:768px) {
+
+  /* ここにPC向けのCSS指定 */
+  /*看板メニュー&プロフィール*/
+  /*position調整*/
+  .height95 {
+    height: 115px;
+  }
+
+  .profile-area {
+    margin-bottom: 50px;
+  }
+
+  .shop-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .k-price {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+
+  .red-box {
+    background: #b62030;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .n-prof {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .np-box {
+    background: #2e2e2e;
+    border: 1px solid #cccccc;
+    margin-top: 30px;
+  }
+
+  .np-p {
+    margin-left: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 30%;
+  }
+
+  .np-pp {
+    margin-left: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 17px;
+  }
+
+  hr {
+    background: #777777;
+    margin: 20px 0;
+  }
+
+  .shop-h1 {
+    width: 450px;
+    margin: 30px auto;
+  }
+
+  /*RECOMMEND*/
+  .osusume-box {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .o-img p {
+    padding: 5px 0;
+  }
+
+  .r-price {
+    float: right;
+    margin-right: 5px;
+  }
+
+  /*Menu*/
+  .allergen-link {
+    margin: 40px 0;
+  }
+
+  .allergen-link a {
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .allergen-link a:hover {
+    color: ##F1D790;
+    border-bottom: 1px solid #F1D790;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin-top: 60px;
+  }
+
+  /*イメージマップのリンクの色を消す*/
+  area {
+    border: none;
+    outline: none;
+  }
+
+  /*PC END*/
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {}

@@ -1,0 +1,429 @@
+@charset "UTF-8";
+
+/*
+20190828 10:27更新
+*/
+/* # =================================================================
+   # 共通
+   # ================================================================= */
+/* # =================================================================
+   # スマホ
+   # ================================================================= */
+@media screen and (max-width:767.98px) {
+
+  /* 変更点。0.02引く。 */
+  /* ここにSP向けのCSS指定 */
+  .height95 {
+    height: 60px;
+  }
+
+  /*ページ内リンクの高さ調整*/
+  .anchor {
+    display: block;
+    padding-top: 60px;
+    margin-top: -60px;
+  }
+
+  .tb-display {
+    display: none;
+  }
+
+  .navbar-light .navbar-brand {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    width: 180px;
+    height: 50px;
+  }
+
+  hr {
+    background: #777777;
+    margin: 5px 0;
+  }
+
+  .container {
+    width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  /*ABOUT*/
+  .catch-copy {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .about-area {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .about-photo2 {
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+
+  .about-p {
+    line-height: 1.7;
+    margin-top: 15px;
+  }
+
+  h2 {
+    border-bottom: 3px solid #ffffff;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    border-left: 10px solid #ffffff;
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  .col-xs-4 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .h2-access {
+    margin-bottom: 15px;
+  }
+
+  .map-p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  hr {
+    background: #777777;
+    margin: 20px 0;
+  }
+
+  .a-map-area {
+    margin-bottom: 10px;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin-top: 60px;
+  }
+
+  h3 {
+    border-bottom: 3px solid #ffffff;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-left: 10px solid #ffffff;
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .map-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .parking {
+    font-size: 14px;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .parking:hover {
+    border-bottom: 1px solid #F1D790;
+    ;
+  }
+
+  .car-access {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .contact-area {
+    margin-bottom: 30px;
+  }
+
+  .contact-box {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .h2-contact {
+    margin-bottom: 10px;
+  }
+
+  dt {
+    float: left;
+    clear: both;
+  }
+
+  dd {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .rs {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .cb {
+    clear: both;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .fas {
+    margin-right: 10px;
+  }
+
+  .email {
+    margin-bottom: 15px;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin: 50px auto 0 auto;
+  }
+
+  .wt92p {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  .button-area a {
+    display: block;
+  }
+
+  /*スマホEND*/
+}
+
+/* # =================================================================
+   # PC
+   # ================================================================= */
+@media screen and (min-width:768px) {
+
+  /* ここにPC向けのCSS指定 */
+  /*看板メニュー&プロフィール*/
+  /*position調整*/
+  .height95 {
+    height: 115px;
+  }
+
+  /*ページ内リンクの高さ調整*/
+  .anchor {
+    display: block;
+    padding-top: 110px;
+    margin-top: -110px;
+  }
+
+  .tb-display {
+    display: none;
+  }
+
+  .wrapper {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  /*ABOUT*/
+  .about-area {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .catch-copy {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .col-md-6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .h1-about {
+    margin-bottom: 10px;
+  }
+
+  .about-photo1 {
+    margin-top: 6%;
+  }
+
+  .about-photo2 {
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    padding-right: 15px;
+  }
+
+  .about-p {
+    padding-right: 15px;
+    line-height: 1.5;
+    margin-top: 5px;
+  }
+
+  h3 {
+    border-bottom: 3px solid #ffffff;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-left: 10px solid #ffffff;
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+
+  hr {
+    background: #777777;
+    margin: 20px 0;
+  }
+
+  .shops-h1 {
+    width: 500px;
+    margin: 10px auto;
+  }
+
+  .map-area {
+    margin-bottom: 60px;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin-top: 80px;
+  }
+
+  .access-area {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .h2-access {
+    margin-bottom: 20px;
+  }
+
+  .map-p {
+    position: absolute;
+    top: 20%;
+    margin-right: 15px;
+    font-size: 14px;
+  }
+
+  .col-xs-4, .col-md-4 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .access-button {
+    padding: 0 10px;
+  }
+
+  .button-area {
+    margin-top: 20px;
+  }
+
+  .car-access {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .map-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .parking {
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .parking:hover {
+    border-bottom: 1px solid #F1D790;
+    ;
+  }
+
+  .contact-area {
+    margin-bottom: 50px;
+  }
+
+  .contact-box {
+    margin-left: 15px;
+  }
+
+  .h2-contact {
+    margin-bottom: 20px;
+  }
+
+  dt {
+    float: left;
+    clear: both;
+  }
+
+  dd {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .rs {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .cb {
+    clear: both;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .fas {
+    margin-right: 10px;
+  }
+
+  .email {
+    margin-bottom: 15px;
+  }
+
+  /*PC END*/
+}
+
+@media screen and (min-width:768px) and (max-width:900px) {
+
+  /*END*/
+  .tb-display {
+    display: block;
+  }
+
+.catch-copy {
+  margin-right:10px;
+}
+
+  .tb-none {
+    display: none;
+  }
+
+  .about-photo3 {
+    width: 30%;
+    float: left;
+  }
+
+.about-p {
+  line-height: 1.6;
+}
+
+.about-photo3 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+}

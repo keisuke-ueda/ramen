@@ -1,0 +1,637 @@
+@charset "UTF-8";
+
+/* # =================================================================
+   # 共通
+   # ================================================================= */
+a {
+  display: block;
+  cursor: pointer;
+}
+
+
+/* # =================================================================
+   # スマホ
+   # ================================================================= */
+@media screen and (max-width:767.98px) {
+
+  /* 変更点。0.02引く。 */
+  /* ここにSP向けのCSS指定 */
+  .height110 {
+    height: 60px;
+  }
+
+  /*topics*/
+  .top-h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1.4pt;
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .top-h1:before {
+    left: 0;
+  }
+
+  h1:after {
+    right: 0;
+  }
+
+  .top-h1:before, h1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 35%;
+    height: 3px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .topix-wrap {
+    padding: 0 10px;
+  }
+
+  .topix-box {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /*NEWS*/
+  .news-box {
+    padding-right: 10px;
+    padding-left: 10px;
+	width: 96%;
+    margin: 0 auto 20px;
+  }
+
+  .link-botton {
+    width: 200px;
+    margin: 10px auto;
+  }
+
+  /*news*/
+  .n-cate {
+    display: block;
+    width: 100px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .c-new {
+    background: red;
+  }
+
+  .c-event {
+    background: blue;
+  }
+
+  .n-date {
+    display: block;
+    width: 56%;
+    float: right;
+    text-align: right;
+    font-size: 10px;
+    padding-right: 3px;
+  }
+
+  .n-title {
+    background: #2d2d2d;
+  }
+
+  .h2-news {
+    font-size: 16px;
+    padding: 40px 10px;
+  }
+
+  /*movie*/
+  .yt-box iframe {
+    width: 98%;
+  }
+
+  /*movie*/
+  .yt-box iframe {
+    width: 98%;
+  }
+
+  /*SNS*/
+
+  .sns-box {
+    margin: 0 auto;
+  }
+
+  .sns-area {
+    margin-bottom: 0;
+  }
+
+  .insta-area {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .padding0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+  .sns-h2 {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+  }
+
+  .twi-h2 {
+    width: 110px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  /*twitter ウィジェット*/
+  #twitter-widget-0 {
+    height: 400px !important;
+  }
+
+  .fb-h2 {
+    width: 140px;
+    margin: 30px auto 10px auto;
+  }
+
+  .fb-box {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  twitter-widget-0 {
+    height: 500px !important;
+  }
+
+  twitter-widget-0 {
+    height: 500px !important;
+  }
+
+  /*スマホここまで*/
+}
+
+/* # =================================================================
+   # PC
+   # ================================================================= */
+@media screen and (min-width:768px) {
+
+  /* ここにPC向けのCSS指定 */
+  /*ヘッダー*/
+
+
+  .height110 {
+    height: 130px;
+  }
+
+  .slickslider {
+    padding: 0;
+    margin: 0;
+  }
+
+  /*見出し*/
+  .top-h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.4pt;
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .top-h1:before {
+    left: 0;
+  }
+
+  h1:after {
+    right: 0;
+  }
+
+  .top-h1:before, h1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 41%;
+    height: 3px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .topix-box {
+    margin: 20px 0;
+  }
+
+  /*ホバー画像拡大*/
+
+  .grow {
+  background: #000;
+  overflow: hidden;
+}
+
+.grow img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.grow:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+  .rs-news {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .link-botton {
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .news-box {
+    margin: 20px 0;
+  }
+
+  /*NEWS*/
+  .news_bg {
+    background: url("../img/news_bg.jpg") no-repeat;
+    background-size: contain;
+  }
+
+  /*movie*/
+  .yt-box iframe {
+    width: 98%;
+  }
+
+  /*SNS*/
+  .sns-area {
+    margin-bottom: 0;
+  }
+
+  .insta-area {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .padding0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+
+  .sns-h2 {
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 40px;
+  }
+
+  .twi-h2 {
+    width: 160px;
+    margin: 40px auto;
+  }
+
+  /*twitter ウィジェット*/
+  #twitter-widget-0 {
+    height: 500px !important;
+  }
+
+  .fb-h2 {
+    width: 200px;
+    margin: 40px auto;
+  }
+
+  .fb-box {
+    width: 100%;
+  }
+
+  twitter-widget-0 {
+    height: 500px !important;
+  }
+
+  /*フッターメニューSP*/
+  .li-co
+}
+
+/* # =================================================================
+   # PC
+   # ================================================================= */
+@media screen and (min-width:768px) {
+
+  /* ここにPC向けのCSS指定 */
+  /*ヘッダー*/
+
+
+  #top-catch {
+    text-align: center;
+  }
+
+  #top-catch img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .height110 {
+    height: 130px;
+  }
+
+  .slickslider {
+    padding: 0;
+    margin: 0 auto;
+	  max-width: 1300px;
+  }
+
+  .slick-next {
+    display: none;
+  }
+
+
+  .slick-arrow {
+    display: none;
+  }
+
+
+  /*各セクション共通*/
+  .top-h1:before {
+    left: 0;
+  }
+
+  h1:after {
+    right: 0;
+  }
+
+  .top-h1:before, h1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 41%;
+    height: 3px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /*TOPIX*/
+  .top-h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.4pt;
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .topix-box {
+    margin: 20px 0;
+  }
+
+  .rs-news {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .link-botton {
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .news-box {
+    margin: 20px 0;
+  }
+
+  /*NEWS*/
+  .news_bg {
+    background: url("../img/news_bg.jpg") no-repeat;
+    background-size: contain;
+  }
+
+  /*movie*/
+  .yt-box iframe {
+    width: 98%;
+  }
+
+  /*SNS*/
+  .sns-area {
+    margin-bottom: 40px;
+  }
+
+  .insta-area {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .sns-h2 {
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 40px;
+  }
+
+  .twi-h2 {
+    width: 160px;
+    margin: 40px auto;
+  }
+
+  /*twitter ウィジェット*/
+  #twitter-widget-0 {
+    height: 500px !important;
+  }
+
+  .fb-h2 {
+    width: 200px;
+    margin: 40px auto;
+  }
+
+  .fb-box {
+    width: 100%;
+  }
+
+  /*news*/
+  .n-cate {
+    display: block;
+    width: 43%;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .n-cate:hover {
+    opacity: 0.9;
+  }
+
+  .c-new {
+    background: red;
+  }
+
+  .c-event {
+    background: blue;
+  }
+
+  .n-date {
+    display: block;
+    width: 56%;
+    float: right;
+    text-align: right;
+    font-size: 10px;
+    padding-right: 3px;
+  }
+
+  .n-title {
+    background: #2d2d2d;
+  }
+
+  .h2-news {
+    font-size: 14px;
+    padding: 40px 10px 20px 10px;
+  }
+
+.h2-news:hover{
+  color: #F1D790;
+}
+
+
+  .slide-in {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .s-caption {
+    color: #fff;
+    padding-top: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .mask {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    margin: 0;
+  }
+
+  .slide-in:hover .mask {
+    opacity: 1;
+    /* マスクを表示する */
+    padding-left: 10%;
+    /* 右にずらす */
+  }
+}
+
+
+
+	.youtubeimg{
+		 position: absolute;
+		width: 100%;
+		height: 200px;
+	}
+	.yt-box iframe{
+		height: 200px!important;
+	}		  
+@media screen and (min-width:768px) {
+	.youtubeimg{
+		 position: absolute;
+		width: 100%;
+		height: 300px;
+	}
+	.yt-box iframe{
+		height: 300px!important;
+	}
+}			  
+	#instafeed div{
+		display: inline-block;
+	}
+			#twitter_layout{
+				text-align: center;
+			}
+			#twitter_layout iframe{
+				width: 340px!important;
+				max-width: 100px;
+				height: 340px!important;
+				overflow-y: scroll;
+			}
+
+			#fb_layout{
+				text-align: center;
+			}
+			#fb_layout iframe{
+				width: 100%;
+				height: 340px!important;
+				font-size: 100%;
+			}
+			.twi-h2{
+				padding: 30px 0 0;
+			}
+			@media screen and (min-width:768px) {
+			.sns_layout{
+				width: 80%;
+			}
+			#twitter_layout{
+				text-align: center;
+			}
+			#twitter_layout iframe{
+				width: 340px!important;
+				height: 400px!important;
+				overflow-y: scroll;
+			}
+			#fb_layout{
+				text-align: center;
+			}
+			#fb_layout iframe{
+				width: 340px!important;
+				height: 400px!important;
+			}
+			.twi-h2{
+				padding:0;
+			}
+			}
+.ytst{
+	 position: relative;
+}
+.twst{
+	 display:block;margin:0 auto;
+}
+.newsst{
+	 display: block; color: inherit;
+}
+
+.ntitlest{
+	 color: inherit;
+}
+.slickthumb .slick-current img {
+	opacity: 0.5;
+	background: #ffffff;
+}
+.slickthumb .slick-current {
+	background: #ffffff;
+}
+
+

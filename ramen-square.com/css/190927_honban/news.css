@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+/*
+20190828 10:27更新
+*/
+/* # =================================================================
+   # 共通
+   # ================================================================= */
+/* # =================================================================
+   # PC
+   # ================================================================= */
+    .c-new {
+    background: red;
+  }
+
+  .c-event {
+    background: blue;
+  }
+.n-cate{
+    font-size: 14px;
+	padding: 5px 10px;
+}
+
+  .n-cate:hover {
+    opacity: 0.9;
+  }
+
+
+.return {
+    margin: 0 auto 60px;
+    text-align: center;
+}
+.return a{
+	padding: 10px 30px;
+    color: #ffffff;
+	font-weight: bold;
+}
+
+.return a:hover {
+    color: #F1D790;
+  }
+
+@media screen and (min-width:768px) {
+.news_title h2 {
+		margin:40px 0;
+		text-align: center;
+		
+	}
+}
+
+  /* ここにPC向けのCSS指定 */
+  /**/
+  /*position調整*/
+  .height95 {
+    height: 55px;
+  }
+  @media screen and (min-width:768px) {
+  .height95 {
+    height: 115px;
+  }
+	  .news_img{
+		  width: 750px;
+		  margin: 40px auto;
+		  text-align: center;
+	  }
+  }
+
+	/*NEWS title*/
+	.news_title h2 {
+		margin:5% 0;
+		text-align: center;
+		
+	}
+	.news_title h2 img{
+		width:100%;
+		max-width: 330px;
+	}
+  	/*NEWS article*/
+	.article{
+		margin:0 0 15%
+	}
+	.ttl_h3{
+		font-size:28px;
+		text-align: left;
+		background:#b71f2e;
+		padding:2% 0 2% 3% 
+	}
+	.sub_ttl{
+		margin: 3% 0;
+		display: flex;
+		justify-content: space-between
+	}
+	.sub_ttl li img{
+		width:100%;
+		max-width:113px
+	}
+	.sub_ttl li:first-child{
+		padding-left:4%
+	}
+	.date p{
+		font-size:14px
+	}
+	.news_txt{
+		margin:4% 0;
+	}
+	.news_txt p{
+		font-size:16px
+	}
+	.news_img a img{
+		width:100%;
+		max-width:1920px;
+	}
+	
+.date_n_hour{
+	width:100%;
+	background: #1d1d1d;
+	
+}
+dl{
+	width:100%;
+	margin:3% 0;
+	padding:1.2% 0 0.4%;
+	overflow: hidden;
+	
+
+}
+dt{
+  float: left;
+	padding-left:5%;
+}
+dd{
+  margin-left: 80px;
+  padding-left:10%;
+}
+.sp{
+		display: none;
+	}
+.txt_space:before{
+	content: "　"/*全スペ*/
+}
+  /*PC END*/
+
+
+/* # =================================================================
+   # スマホ
+   # ================================================================= */
+@media screen and (max-width:767.98px) {
+
+  /* 変更点。0.02引く。 */
+  /* ここにSP向けのCSS指定 */
+	.sp{
+		display: block
+	}
+  .article {
+    margin: 0 0 15%;
+}
+	.news_title h2 img{
+		width:100%;
+		max-width: 165px;
+	}
+.ttl_h3{
+		font-size:24px;
+		
+	}
+	.sub_ttl li:first-child{
+		padding-left:0%
+	}
+  /*スマホEND*/
+}
+
+@media screen and (max-width:767.98px) {
+  .news-archive-h1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+   } 
+  
+  @media screen and (min-width:768px) {
+    .news-archive-h1 {
+    width: 600px;
+    margin: 0 auto 15px auto;
+  }
+  }
+
+.news_txt img{
+	width: auto!important;
+	height: auto!important;
+	max-width: 100%;
+}
+@media screen and (min-width:768px) {
+	.news_txt img{
+		 display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+		max-width: 750px;
+		width: 100%:
+		}
+		}
+
