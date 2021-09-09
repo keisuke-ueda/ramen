@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^menu_list.html(.*)$ /shops$1 [L,R=301]
+RewriteRule ^shoplist/ebisu.html(.*)$ /ebisu$1 [L,R=301]
+RewriteRule ^shoplist/katsumi.html(.*)$ /katsumi$1 [L,R=301]
+RewriteRule ^shoplist/ebisuke.html(.*)$ /ebisuke$1 [L,R=301]
+RewriteRule ^shoplist/seattleramenstand.html(.*)$ /seattleramenstand$1 [L,R=301]
+RewriteRule ^shoplist/hinobuta.html(.*)$ /shops$1 [L,R=301]
+RewriteRule ^shoplist/gokujo.html(.*)$ /gokujoe$1 [L,R=301]
+RewriteRule ^shoplist/goku.html(.*)$ /goku$1 [L,R=301]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

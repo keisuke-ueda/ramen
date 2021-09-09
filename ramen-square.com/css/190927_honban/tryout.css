@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/*
+20190828 10:27更新
+*/
+/* # =================================================================
+   # 共通
+   # ================================================================= */
+/* # =================================================================
+   # PC
+   # ================================================================= */
+
+
+  /* ここにPC向けのCSS指定 */
+  /**/
+  /*position調整*/
+.wrapper_content{
+	width:100%;
+	max-width: 1000px;
+	margin:0 auto 10%
+}
+.try_txt{
+	width:100%;
+	max-width:740px;
+	margin: 5% auto;
+	font-size:20px;
+	line-height: 1.5;
+}
+
+
+	
+  .date_n_hour{
+	width:100%;
+	max-width: 740px;
+	 margin:0 auto;
+	
+}
+.date_n_hour dl{
+	width:100%;
+	margin:3% 0;
+	padding:1.2% 0 0.4%;
+	overflow: hidden;
+	
+
+}
+dl{
+	font-size:20px;
+	line-height: 1.8
+}
+.date_n_hour dt{
+  float: left;
+	
+}
+.date_n_hour dd{
+  margin-left: 80px;
+  padding-left:10%;
+}
+.u_line{
+	border-bottom:1px solid 
+}
+.to_winner{
+	width:100%;
+	max-width: 740px;
+    margin: 2% auto;
+    padding: 56px 0;
+    line-height: 1.5;
+}
+.to_winner dl{
+	margin: 1% auto;
+}
+table{
+	width:100%;
+	max-width: 670px;
+	margin: 0 auto;
+}
+.sp{
+	display: none
+}
+  /*PC END*/
+
+
+/* # =================================================================
+   # スマホ
+   # ================================================================= */
+@media screen and (max-width:767.98px) {
+
+  /* 変更点。0.02引く。 */
+  /* ここにSP向けのCSS指定 */
+	.wrapper_content{
+	width:90%;
+	max-width: 670px;
+	margin:0 auto
+}
+	.pc{
+		display: none
+	}
+	.sp{
+		display: block
+	}
+  
+	.news_title h2 img{
+		width:100%;
+		max-width: 165px;
+	}
+	.try_txt{
+	width:90%;
+	max-width:670px;
+	margin: 5% auto;
+	font-size:16px;
+}
+dl{
+	font-size:16px;
+	line-height: 1.8
+}
+	.to_winner{
+	width:100%;
+	max-width: 740px;
+    margin: 40px auto;
+    padding: 0 0 56px;
+    
+    line-height: 1.5;
+}
+  /*スマホEND*/
+}
+
+
+  .height95 {
+    height: 60px;
+  }
+
+@media screen and (min-width:768px) {
+
+  /* ここにPC向けのCSS指定 */
+  /*看板メニュー&プロフィール*/
+  /*position調整*/
+  .height95 {
+    height: 115px;
+  }
+    }
+
+@media screen and (min-width:768px) and (max-width:992px) {}

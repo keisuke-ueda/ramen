@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+/*
+20190828 10:27更新
+*/
+/* # =================================================================
+   # 共通
+   # ================================================================= */
+.slick-slide a {
+  display: block;
+}
+
+/*イメージマップのリンクを色を消す*/
+area {
+  border: none;
+  outline: none;
+}
+
+/* # =================================================================
+   # スマホ
+   # ================================================================= */
+@media screen and (max-width:767.98px) {
+
+  /* 変更点。0.02引く。 */
+  /* ここにSP向けのCSS指定 */
+  .height95 {
+    height: 60px;
+  }
+
+  .navbar-light .navbar-brand {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    width: 180px;
+    height: 50px;
+  }
+
+  /*ここまで*/
+  hr {
+    background: #777777;
+    margin: 5px 0;
+  }
+
+  .shop-h1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  h2 {
+    border-bottom: 3px solid #ffffff;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    border-left: 10px solid #ffffff;
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  .map-box {
+    text-align: center;
+  }
+
+  .map-box p {
+    text-align: left;
+  }
+
+  .map-box img {
+    margin: 15px 0 0 0;
+    width: 92%;
+  }
+
+  hr {
+    background: #777777;
+    margin: 20px 0;
+  }
+
+  .map-area {
+    margin-bottom: 30px;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin-top: 60px;
+  }
+
+  /*メニュースライダー*/
+  .shop-button li {
+    width: 23% !important;
+    margin: 0 1% 10px 1%;
+    float: left;
+  }
+
+  .p-ajust {
+    position: relative;
+  }
+
+  .slider-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .shop-button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  h3 {
+    width: 150px;
+    margin-bottom: 5px;
+  }
+
+  .main-slider a:hover {
+    color: #ffffff;
+  }
+
+  .slick-prev:before, .slick-next:before {}
+
+  .prev-arrow {
+    display: inline;
+    width: 60px;
+    position: absolute;
+    left: -80px;
+    z-index: 5;
+    top: 35%;
+    display: none !important;
+  }
+
+  .next-arrow {
+    display: inline;
+    width: 60px;
+    position: absolute;
+    right: -80px;
+    z-index: 5;
+    top: 35%;
+    display: none !important;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin: 60px auto 0 auto;
+  }
+
+  .wt92p {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  /*スマホEND*/
+}
+
+/* # =================================================================
+   # PC
+   # ================================================================= */
+@media screen and (min-width:768px) {
+
+  /* ここにPC向けのCSS指定 */
+  /*看板メニュー&プロフィール*/
+  /*position調整*/
+  .height95 {
+    height: 125px;
+  }
+
+  h2 {
+    border-bottom: 3px solid #ffffff;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-left: 10px solid #ffffff;
+    font-size: 26px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+  }
+
+  .map-box {
+    text-align: center;
+  }
+
+  .map-box p {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .map-box img {
+    margin: 20px 0;
+    width: 80%;
+  }
+
+  .np-pp {
+    margin-left: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 17px;
+  }
+
+  hr {
+    background: #777777;
+    margin: 20px 0;
+  }
+
+  .shops-h1 {
+    width: 500px;
+    margin: 10px auto;
+  }
+
+  .map-area {
+    margin-bottom: 60px;
+  }
+
+  /*foot-banner*/
+  .foot-banner {
+    margin-top: 60px;
+  }
+
+  /*メニュースライダー*/
+  .shop-button li {
+    width: 13.5%;
+    margin: 0.5% 1%;
+  }
+
+  .p-ajust {
+    position: relative;
+  }
+
+  .slider-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-slider {}
+
+  .shop-button {
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+
+  h3 {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .main-slider a:hover {
+    color: #ffffff;
+  }
+
+  .slick-prev:before, .slick-next:before {}
+
+  .prev-arrow {
+    display: inline;
+    width: 35px;
+    position: absolute;
+    left: -55px;
+    z-index: 5;
+    top: 45%;
+  }
+
+  .next-arrow {
+    display: inline;
+    width: 35px;
+    position: absolute;
+    right: -55px;
+    z-index: 5;
+    top: 45%;
+  }
+
+  /*PC END*/
+}
+
+@media screen and (min-width:768px) and (max-width:1080px) {
+  .prev-arrow {
+    display: inline;
+    width: 30px;
+    position: absolute;
+    left: -40px;
+    z-index: 5;
+    top: 50%;
+  }
+
+  .next-arrow {
+    display: inline;
+    width: 30px;
+    position: absolute;
+    right: -40px;
+    z-index: 5;
+    top: 50%;
+  }
+
+  /*END*/
+}
